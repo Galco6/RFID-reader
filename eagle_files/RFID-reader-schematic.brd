@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -162,6 +162,7 @@
 <wire x1="5" y1="0" x2="90" y2="0" width="0.4" layer="20"/>
 <wire x1="90" y1="0" x2="90" y2="65" width="0.4" layer="20"/>
 <wire x1="90" y1="65" x2="5" y2="65" width="0.4" layer="20"/>
+<text x="85.69" y="60.06" size="1.4224" layer="16" font="vector" ratio="14" distance="1" rot="MR0">RFID Reader 125kHz</text>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -1765,6 +1766,7 @@ design rules under a new name.</description>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2238,13 +2240,12 @@ design rules under a new name.</description>
 <wire x1="67.3928" y1="43.7072" x2="67.3928" y2="48.7112" width="0.4" layer="16"/>
 <wire x1="55.88" y1="53.34" x2="58.42" y2="55.88" width="0.4" layer="16"/>
 <wire x1="58.42" y1="55.88" x2="60.96" y2="55.88" width="0.4" layer="16"/>
-<polygon width="0.4" layer="16" spacing="1.016" isolate="1.6764">
+<polygon width="0.4" layer="16" spacing="1.016" isolate="1">
 <vertex x="8.1" y="2.4"/>
 <vertex x="8.1" y="62.9"/>
 <vertex x="8.5" y="63.3"/>
 <vertex x="86.8" y="63.3"/>
 <vertex x="86.9" y="63.2"/>
-<vertex x="86.9" y="2.8"/>
 <vertex x="87.3" y="2.4"/>
 <vertex x="8.7" y="2.4"/>
 </polygon>
